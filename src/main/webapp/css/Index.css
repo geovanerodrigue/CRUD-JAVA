@@ -1,0 +1,132 @@
+@charset "utf-8";
+
+.div-pai{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;	
+width: 95%;
+border-radius: 11px;
+background: rgba( 255, 255, 255, 0.3 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 6.5px );
+-webkit-backdrop-filter: blur( 6.5px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+
+.text-escola{
+display: flex;
+width: 86%;
+height: 90px;
+justify-content: center;
+font-size: 58px;
+letter-spacing: 10px;
+margin-top: 34px;
+border-radius: 17px;
+background: rgba( 255, 255, 255, 0.7 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 10px );
+-webkit-backdrop-filter: blur( 10px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.botaoacess{
+display: flex;
+width: 282px;
+height: 24px;
+border-radius: 6px;
+margin-left: 15px;
+justify-content: center;
+color: black;
+text-decoration: none;
+font-size: 23px;
+background: rgba( 255, 255, 255, 0.7 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 10px );
+-webkit-backdrop-filter: blur( 10px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.div-filho-desc {
+display: flex;
+justify-content: center;
+width: 100%;
+flex-wrap: wrap;
+}
+
+.div-imagem-text{
+width: 400px;
+height: 266px;
+border-radius: 32px;
+}
+.quadro-de-texto{
+width: 400px;
+background: rgba( 255, 255, 255, 0.7 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 10px );
+-webkit-backdrop-filter: blur( 10px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+margin-right: 30px;
+}
+
+.titulo-quadro-text{
+font-size: 30px;
+padding: 0 0 0 100px;
+}
+
+.texto-quadro-text{
+padding: 0 0 0 4px;
+}
+
+.div-frame-mapa{
+ padding: 131px 0px 0px 0px;
+}
+
+
+@media (max-width: 1279px){
+	
+	
+	
+	
+.text-escola {
+  display: flex;
+  width: 86%;
+  height: 39px;
+  justify-content: center;
+  font-size: 27px;
+  letter-spacing: 0px;
+  margin-top: 34px;
+  border-radius: 17px;
+  background: rgba( 255, 255, 255, 0.7 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 10px );
+  -webkit-backdrop-filter: blur( 10px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.quadro-de-texto {
+  width: 407px;
+  background: rgba( 255, 255, 255, 0.7 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 10px );
+  -webkit-backdrop-filter: blur( 10px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  margin-right: 0px;
+  margin-bottom: 10px;
+}
+
+
+	
+	
+	
+	
+	
+}
+
+
